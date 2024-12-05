@@ -3,7 +3,7 @@ import Generator from 'yeoman-generator';
 import chalk from 'chalk';
 import _ from 'lodash';
 import fs from 'fs';
-import {mkdirp} from 'mkdirp';
+import mkdirp from 'mkdirp';
 import path, {dirname} from 'path';
 import {fileURLToPath} from 'url';
 
